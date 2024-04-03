@@ -1,0 +1,8 @@
+## Interface: 100206
+## Version: 1.0.0
+## Title: PvP Talents Saver
+## Notes: Save and load your PvP talents with your talents loadouts.
+## Author: Sighmir
+## SavedVariables: PvPTalentsSaverDB
+
+PvPTalentsSaver.lua
