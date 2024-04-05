@@ -25,12 +25,15 @@ end
 
 function f:TRAIT_TREE_CURRENCY_INFO_UPDATED()
   configID = GetSelectedLoadoutConfigID()
+  selectedPvpTalentIDs = C_SpecializationInfo.GetAllSelectedPvpTalentIDs()
   if configID then
     if self.db[configID] == nil then
-      self.db[configID] = C_SpecializationInfo.GetAllSelectedPvpTalentIDs()
+      self.db[configID] = selectedPvpTalentIDs
     end
     for index, talentID in ipairs(self.db[configID]) do
-      LearnPvpTalent(talentID, index)
+      if selectedPvpTalentIDs[index] ~= talentID then
+        LearnPvpTalent(talentID, index)
+      end
     end
   end
 end
