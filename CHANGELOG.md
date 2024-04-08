@@ -17,4 +17,3 @@
 # v1.0.0 (2024-04-03)
 
 - First commit ([7ac3302](https://github.com/guicaulada/PvPTalentsSaver/commit/7ac3302aa3b656dab2430294c577b98b55625b1c))
-
