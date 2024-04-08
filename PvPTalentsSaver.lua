@@ -18,14 +18,14 @@ end
 
 function f:ADDON_LOADED(_, addOnName)
   if addOnName == "PvPTalentsSaver" then
-    PvPTalentsSaverDB = PvPTalentsSaverDB or {}
+    local PvPTalentsSaverDB = PvPTalentsSaverDB or {}
     self.db = PvPTalentsSaverDB
   end
 end
 
 function f:TRAIT_TREE_CURRENCY_INFO_UPDATED()
-  configID = GetSelectedLoadoutConfigID()
-  selectedPvpTalentIDs = C_SpecializationInfo.GetAllSelectedPvpTalentIDs()
+  local configID = GetSelectedLoadoutConfigID()
+  local selectedPvpTalentIDs = C_SpecializationInfo.GetAllSelectedPvpTalentIDs()
   if configID then
     if self.db[configID] == nil then
       self.db[configID] = selectedPvpTalentIDs
@@ -39,7 +39,7 @@ function f:TRAIT_TREE_CURRENCY_INFO_UPDATED()
 end
 
 function f:PLAYER_PVP_TALENT_UPDATE()
-  configID = GetSelectedLoadoutConfigID()
+  local configID = GetSelectedLoadoutConfigID()
   if configID then
     self.db[configID] = C_SpecializationInfo.GetAllSelectedPvpTalentIDs()
   end
