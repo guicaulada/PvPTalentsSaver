@@ -1,3 +1,7 @@
+# v1.0.3 (2024-04-08)
+
+- Minor change to variable scoping ([e9e741f](https://github.com/guicaulada/PvPTalentsSaver/commit/e9e741f230bb170312e6f154c32d84291da988ed))
+
 # v1.0.2 (2024-04-08)
 
 - Fix conflict with talents not saving/loading correctly ([eb2a850](https://github.com/guicaulada/PvPTalentsSaver/commit/eb2a8504e8f2b504a7c14268b9c443715ec872f0))
