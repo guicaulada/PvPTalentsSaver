@@ -1,4 +1,4 @@
-function GetSelectedLoadoutConfigID()
+local function GetSelectedLoadoutConfigID()
   local lastSelected = PlayerUtil.GetCurrentSpecID() and
       C_ClassTalents.GetLastSelectedSavedConfigID(PlayerUtil.GetCurrentSpecID())
   local selectionID = ClassTalentFrame and ClassTalentFrame.TalentsTab and ClassTalentFrame.TalentsTab.LoadoutDropDown and
