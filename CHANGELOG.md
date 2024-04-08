@@ -1,3 +1,7 @@
+# v1.0.4 (2024-04-08)
+
+- Fix saved variable not being created ([5140c16](https://github.com/guicaulada/PvPTalentsSaver/commit/5140c167246fc6fd478754e54cdcd3d6c1ca4bc0))
+
 # v1.0.3 (2024-04-08)
 
 - Minor change to variable scoping ([e9e741f](https://github.com/guicaulada/PvPTalentsSaver/commit/e9e741f230bb170312e6f154c32d84291da988ed))
