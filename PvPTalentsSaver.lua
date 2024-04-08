@@ -18,7 +18,7 @@ end
 
 function f:ADDON_LOADED(_, addOnName)
   if addOnName == "PvPTalentsSaver" then
-    local PvPTalentsSaverDB = PvPTalentsSaverDB or {}
+    PvPTalentsSaverDB = PvPTalentsSaverDB or {}
     self.db = PvPTalentsSaverDB
   end
 end
