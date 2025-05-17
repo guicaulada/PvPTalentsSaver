@@ -1,5 +1,5 @@
 ## Interface: 110105
-## Version: 2.0.0
+## Version: 2.0.1
 ## Title: PvP Talents Saver
 ## Notes: Automatically load PvP talents by linking them to your talent loadouts.
 ## Author: Sighmir & Railander
