@@ -1,3 +1,7 @@
+# v2.0.1 (2025-05-18)
+
+- Rewrite for The War Within expansion (might have broken changes, if you have issues delete the SavedVariables for the addon)
+
 # v1.0.4 (2024-04-08)
 
 - Fix saved variable not being created ([5140c16](https://github.com/guicaulada/PvPTalentsSaver/commit/5140c167246fc6fd478754e54cdcd3d6c1ca4bc0))
