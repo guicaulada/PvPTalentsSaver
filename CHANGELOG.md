@@ -1,6 +1,7 @@
 # v2.0.1 (2025-05-18)
 
-- Rewrite for The War Within expansion (might have broken changes, if you have issues delete the SavedVariables for the addon)
+- Rewrite for The War Within expansion
+  - Might have breaking changes, if you have issues delete the SavedVariables for the addon
 
 # v1.0.4 (2024-04-08)
 
